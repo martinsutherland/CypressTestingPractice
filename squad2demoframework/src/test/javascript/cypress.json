@@ -1,0 +1,10 @@
+{
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "modifyObstructiveCode": false,
+    "defaultCommandTimeout": 60000,
+    "env": {
+      "device": "default"
+    },
+    "baseUrl": "https://duckduckgo.com"
+  }
