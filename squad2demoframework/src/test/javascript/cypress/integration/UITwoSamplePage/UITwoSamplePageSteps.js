@@ -6,7 +6,9 @@ import {SamplePage} from '../../pages/SamplePage'
 const basePage = new BasePage()
 const samplePage = new SamplePage()
 
-
+Given('I set the device for testing', ()=>{
+    cy.setDevice()
+})
 
 Given ('I navigate to the sample site', () => {
     samplePage.visitPage()
@@ -16,10 +18,10 @@ When ('I fill out the form', () => {
     samplePage.fillOutForm()
 })
 
-// And ("I search for {string}", (text) =>{
-//     duckDuckGoPage.enterText(text)
-// })
+And ("I click the alert box", () =>{
+   
+})
 
-// Then ("There should be {string} results found", (header) => {
-//     basePage.checkHeaderTwo(header)
-// })
+Then ("The form is submitted", () => {
+    
+})

@@ -1,4 +1,4 @@
-Feature: Duckduckgo automated test
+Feature: 2i Testing automated test
   Description: Testing the cucumber selenium framework.
 
   Background: Set the device to be used for testing

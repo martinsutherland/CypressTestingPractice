@@ -28,6 +28,9 @@ Then ('The header should be {string}', (header) =>{
 
 Then ('Click the link again', () => {
     twoI.openArticle()
+    twoI.acceptCookies()
+
+   
 })
 
 And ('The header contains {string}', (header) => {

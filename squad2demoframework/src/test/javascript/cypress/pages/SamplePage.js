@@ -12,6 +12,7 @@ export class SamplePage {
         cy.get('#g2599-experienceinyears').select('1-3')
         cy.get('#contact-form-2599 > form > div.grunion-field-wrap.grunion-field-checkbox-multiple-wrap > label:nth-child(2) > input').check()
         cy.get('#contact-form-2599 > form > div.grunion-field-wrap.grunion-field-checkbox-multiple-wrap > label:nth-child(4) > input').check()
+        cy.get('#contact-form-2599 > form > div.grunion-field-wrap.grunion-field-radio-wrap > label:nth-child(4) > input').check()
     }
 
  
